@@ -24,10 +24,9 @@ namespace product
 
         public void display()
         {
-            Product p = new Product();
-            Console.WriteLine("ProductId is" + p.productId);
-            Console.WriteLine("ProductName is" + p.productName);
-            Console.WriteLine("ProductCost is" + p.productCost);
+            Console.WriteLine("ProductId is" + productId);
+            Console.WriteLine("ProductName is" + productName);
+            Console.WriteLine("ProductCost is" + productCost);
 
         }
     }
