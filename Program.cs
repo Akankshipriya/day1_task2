@@ -15,6 +15,7 @@ namespace trainingOOP
             Product p = new Product();
             p.display();
             Customer c = new Customer();
+            c.display();
             Console.ReadLine();
 
         }

@@ -21,9 +21,8 @@ namespace trainingOOP
 
             public void display()
             {
-                Customer c = new Customer();
-                Console.WriteLine("CustomerId is" + c.customerId);
-                Console.WriteLine("ProductName is" + c.customerName);
+                Console.WriteLine("CustomerId is" + customerId);
+                Console.WriteLine("ProductName is" + customerName);
 
             }
         
